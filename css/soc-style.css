@@ -1,7 +1,9 @@
 .footer-tab{
     display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     background: gray;
     border-radius: 50px;
     padding: 5px;
@@ -60,7 +62,7 @@
 
 .progress-bar{
     background: powderblue;
-    max-width: auto;
+    max-width: 750px;
     min-width: auto;
     height: 10px;
     border-radius: 5px;

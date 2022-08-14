@@ -119,15 +119,19 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .nav__bar{
-    position: sticky;
+    position: flex;
     top: 0;
+    flex: 1;
+    justify-content: space-between;
 }
 
 
 .nav__bar ul li{
-    display: inline-block;
+    display: inline-flex;
     list-style: none;
     min-width: 120px;
+    justify-content: center;
+    align-items: center;
     background: #fff;
     text-align: center;
     border-radius: 40px;
