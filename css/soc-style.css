@@ -100,18 +100,18 @@
 
 .css{
     background: #04D4F1;
-    animation: css 1s linear forwards;
+    animation: css 1.25s linear forwards;
 }
 @keyframes css{
-    100%{width: 30%;}
+    100%{width: 35%;}
 }
 
 .python{
     background: #69D9E9;
-    animation: python 1s linear forwards;
+    animation: python 1.5s linear forwards;
 }
 @keyframes python{
-    100%{width: 40%;}
+    100%{width: 30%;}
 }
 
 .html span{
