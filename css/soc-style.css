@@ -95,7 +95,7 @@
     animation:html 1s linear forwards;
 }
 @keyframes html{
-    100%{width: 40%;}
+    100%{width: 60%;}
 }
 
 .css{
@@ -103,14 +103,14 @@
     animation: css 1s linear forwards;
 }
 @keyframes css{
-    100%{width: 30%;}
+    100%{width: 50%;}
 }
 
-.python{
+.J-Script{
     background: #69D9E9;
-    animation: python 1s linear forwards;
+    animation: J-Script 1s linear forwards;
 }
-@keyframes python{
+@keyframes J-Script{
     100%{width: 40%;}
 }
 
@@ -122,6 +122,6 @@
     border:2px solid #04D4F1;
 }
 
-.python span{
+.J-Script span{
     border:2px solid #69D9E9;
 }
