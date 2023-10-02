@@ -1,0 +1,26 @@
+*{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.section__projects{
+    display: flex;
+    box-sizing: border-box;
+    margin: 5.5px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section__projects ul li{
+    margin: 2.5px;
+    padding: 2.5px;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.title{
+    margin: 2.5px;
+    padding: 2.5px;
+}
